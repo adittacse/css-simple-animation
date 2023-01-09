@@ -1,0 +1,17 @@
+.container, .inner {
+    height: 150px;
+    width: 150px;
+    border: 2px solid darkblue;
+}
+.container {
+    background: lightcoral;
+}
+.inner {
+    background: aqua;
+    /* zoom */
+    /*transform: scale(0.75);*/
+    /*  rotate  */
+    /*transform: rotate(30deg);*/
+    /*  multiple transform: scale and zoom  */
+    transform: scale(.60) rotate(45deg) translate(50px, 80px);
+}
