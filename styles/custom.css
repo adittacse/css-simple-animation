@@ -1,0 +1,26 @@
+:root {
+    --primary-color: slateblue;
+    --secondary-color: lightgray;
+    --single-border: 2px solid blue;
+}
+h1 {
+    color: var(--primary-color);
+}
+
+#heading-3 {
+    border: 2px solid var(--primary-color);
+}
+
+p {
+    border-bottom: var(--single-border);
+}
+
+.box {
+    background-color: var(--primary-color);
+    height: 100px;
+    width: calc(100% - 300px);
+}
+
+.pond {
+    background-color: var(--secondary-color);
+}
